@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" client="site" group="system" method="upgrade">
+	<name>PLG_SYSTEM_ONURLROBOTSGHSVS</name>
+	<author>G@HService Berlin Neukölln, Volkmar Volli Schlothauer</author>
+	<creationDate>2023-12-11</creationDate>
+	<copyright>(C) 2023, G@HService Berlin Neukölln, Volkmar Volli Schlothauer.</copyright>
+	<license>GNU General Public License version 3 or later; see LICENSE.txt.</license>
+	<authorUrl>https://ghsvs.de</authorUrl>
+	<version>2023.12.11</version>
+	<description>PLG_SYSTEM_ONURLROBOTSGHSVS_XML_DESCRIPTION</description>
+	<updateservers><server type="extension" priority="1" name="PLG_SYSTEM_ONURLROBOTSGHSVS">https://raw.githubusercontent.com/GHSVS-de/upadateservers/master/plg_system_onurlrobotsghsvs-update.xml</server></updateservers>
+	<infourl>https://github.com/GHSVS-de/plg_system_onurlrobotsghsvs/releases/tag/2023.12.11</infourl>
+
+	<scriptfile>installerScript.php</scriptfile>
+	<minimumPhp>7.4.0</minimumPhp>
+	<maximumPhp></maximumPhp>
+	<minimumJoomla>4.3.0</minimumJoomla>
+	<maximumJoomla>5.9999.9999</maximumJoomla>
+	<allowDowngrades>1</allowDowngrades>
+
+	<files>
+		<folder plugin="onurlrobotsghsvs">services</folder>
+		<folder>language</folder>
+		<folder>src</folder>
+		<filename>installerScript.php</filename>
+		<filename>LICENSE.txt</filename>
+	</files>
+
+	<namespace path="src">GHSVS\Plugin\System\OnUrlRobotsGhsvs</namespace>
+
+	<config addfieldprefix="GHSVS\Plugin\System\OnUrlRobotsGhsvs\Field">
+  	<fields name="params">
+
+			<fieldset name="basic">
+				<field type="hidden" default="1" name="onurlrobotsghsvsplugin"/>
+
+				<field type="Version"
+					label="JVERSION"/>
+			</fieldset><!--basic-->
+
+			<fieldset name="optionRules" label="PLG_SYSTEM_ONURLROBOTSGHSVS_OPTIONRULES">
+
+				<field name="robotsContentSpacer" type="note" close="true"
+					class="alert alert-info mb-0"
+					label="PLG_SYSTEM_ONURLROBOTSGHSVS_ROBOTSCONTENT"
+					description="PLG_SYSTEM_ONURLROBOTSGHSVS_ROBOTSCONTENT_DESC"/>
+
+				<field name="robotsContent" type="text" filter="trim"
+					default="index,follow"
+					label="PLG_SYSTEM_ONURLROBOTSGHSVS_ROBOTSCONTENT" />
+
+				<field name="optionRulesSpacer" type="note" close="true"
+					class="alert alert-info mb-0"
+					label="PLG_SYSTEM_ONURLROBOTSGHSVS_OPTIONRULES"
+					description="PLG_SYSTEM_ONURLROBOTSGHSVS_OPTIONRULES_DESC"/>
+
+				<field name="optionRules" type="textarea" filter="trim" default=""
+					label="PLG_SYSTEM_ONURLROBOTSGHSVS_OPTIONRULES" />
+
+			</fieldset>
+
+	  </fields>
+ 	</config>
+</extension>
