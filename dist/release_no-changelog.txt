@@ -4,6 +4,8 @@ Joomla system plugin OnUrlRobotsGhsvs 2024.01.06
 
 Joomla system plugin. Sets a robots tag in frontend if the 'option' part of the Joomla url matches your configuration.
 
+### Joomla 4.3+, Joomla 5
+
 ### Download
 [plg_system_onurlrobotsghsvs-2024.01.06.zip](https://github.com/GHSVS-de/plg_system_onurlrobotsghsvs/raw/2024.01.06/dist/plg_system_onurlrobotsghsvs-2024.01.06.zip)
 
