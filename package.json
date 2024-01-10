@@ -2,7 +2,7 @@
 	"name": "plg_system_onurlrobotsghsvs",
 	"nameReal": "plg_system_onurlrobotsghsvs",
 	"filename": "onurlrobotsghsvs",
-	"version": "2023.12.11",
+	"version": "2024.01.06",
 	"versionCompare": "2023.12.11",
 	"versionSub": "",
 	"update": {
@@ -30,7 +30,7 @@
 		"projecturl": "https://github.com/GHSVS-de/plg_system_onurlrobotsghsvs",
 		"infosDE": "",
 		"infosEN": "https://github.com/GHSVS-de/plg_system_onurlrobotsghsvs#readme",
-		"docsDE": "",
+		"docsDE": "https://ghsvs.de/programmierer-schnipsel/joomla/377-bei-joomla-komponente-com-xy-spezifischen-robots-tag-setzen",
 		"docsEN": "",
 		"lastTests": [
 			"PHP 8.2",
