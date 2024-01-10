@@ -6,10 +6,10 @@
 	<copyright>(C) 2023, G@HService Berlin Neukölln, Volkmar Volli Schlothauer.</copyright>
 	<license>GNU General Public License version 3 or later; see LICENSE.txt.</license>
 	<authorUrl>https://ghsvs.de</authorUrl>
-	<version>2023.12.11</version>
+	<version>2024.01.06</version>
 	<description>PLG_SYSTEM_ONURLROBOTSGHSVS_XML_DESCRIPTION</description>
 	<updateservers><server type="extension" priority="1" name="PLG_SYSTEM_ONURLROBOTSGHSVS">https://raw.githubusercontent.com/GHSVS-de/upadateservers/master/plg_system_onurlrobotsghsvs-update.xml</server></updateservers>
-	<infourl>https://github.com/GHSVS-de/plg_system_onurlrobotsghsvs/releases/tag/2023.12.11</infourl>
+	<infourl>https://github.com/GHSVS-de/plg_system_onurlrobotsghsvs/releases/tag/2024.01.06</infourl>
 
 	<scriptfile>installerScript.php</scriptfile>
 	<minimumPhp>7.4.0</minimumPhp>
@@ -56,6 +56,17 @@
 
 				<field name="optionRules" type="textarea" filter="trim" default=""
 					label="PLG_SYSTEM_ONURLROBOTSGHSVS_OPTIONRULES" />
+
+				<field name="exludeStartpageSpacer" type="note" close="true"
+					class="alert alert-danger mb-0"
+					label="PLG_SYSTEM_ONURLROBOTSGHSVS_EXLUDESTARTPAGE"
+					description="PLG_SYSTEM_ONURLROBOTSGHSVS_EXLUDESTARTPAGE_DESC"/>
+
+				<field name="exludeStartpage" type="list" default="0" filter="integer"
+					label="PLG_SYSTEM_ONURLROBOTSGHSVS_EXLUDESTARTPAGE">
+						<option value="0">JNO</option>
+						<option value="1">JYES</option>
+				</field>
 
 			</fieldset>
 

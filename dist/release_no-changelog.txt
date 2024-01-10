@@ -1,26 +1,25 @@
-2023.12.11
+2024.01.06
 
-Joomla system plugin OnUrlRobotsGhsvs 2023.12.11
+Joomla system plugin OnUrlRobotsGhsvs 2024.01.06
 
 Joomla system plugin. Sets a robots tag in frontend if the 'option' part of the Joomla url matches your configuration.
 
-### Joomla 4.3+, Joomla 5
-
 ### Download
-[plg_system_onurlrobotsghsvs-2023.12.11.zip](https://github.com/GHSVS-de/plg_system_onurlrobotsghsvs/raw/2023.12.11/dist/plg_system_onurlrobotsghsvs-2023.12.11.zip)
+[plg_system_onurlrobotsghsvs-2024.01.06.zip](https://github.com/GHSVS-de/plg_system_onurlrobotsghsvs/raw/2024.01.06/dist/plg_system_onurlrobotsghsvs-2024.01.06.zip)
 
 ### Joomla-Target-Platform(s)
-4\.(3|4|5|6|7|8|9|10|11|12|13|14|15), 5.&ast;
+4\.(3|4|5|6|7|8|9|10|11|12|13|14|15)<br>5.&ast;
 
 ### For the interested ones
-- Deutsche Beschreibung: https://github.com/GHSVS-de/plg_system_onurlrobotsghsvs#deutsche-beschreibung
+- New feature exlude start page.
+- Deutsche Beschreibung: https://ghsvs.de/programmierer-schnipsel/joomla/377-bei-joomla-komponente-com-xy-spezifischen-robots-tag-setzen
 - English Description: https://github.com/GHSVS-de/plg_system_onurlrobotsghsvs#english-description
-- [Compare releases 2023.12.11...2023.12.11](https://github.com/GHSVS-de/plg_system_onurlrobotsghsvs/compare/2023.12.11...2023.12.11)
+- [Compare releases 2023.12.11...2024.01.06](https://github.com/GHSVS-de/plg_system_onurlrobotsghsvs/compare/2023.12.11...2024.01.06)
 - minimumJoomla: 4.3.0
 - maximumJoomla: 5.9999.9999
 - minimumPhp: 7.4.0
 - maximumPhp:
-- Checksum: `<sha256>dd214e055e45d56bf0763c7aa2e71658fe3d454c39caee753d12ea68f58ec4f7</sha256>`
+- Checksum: `<sha256>718f10e5d97bea4c55e23531c64854a729894a9b929195950881c2e8aa57b534</sha256>`
 - Readme: https://github.com/GHSVS-de/plg_system_onurlrobotsghsvs#readme
 - Updates XML: https://raw.githubusercontent.com/GHSVS-de/upadateservers/master/plg_system_onurlrobotsghsvs-update.xml
 - Last tests: PHP 8.2<br>Joomla 4.4<br>Joomla 5.0
