@@ -57,6 +57,17 @@
 				<field name="optionRules" type="textarea" filter="trim" default=""
 					label="PLG_SYSTEM_ONURLROBOTSGHSVS_OPTIONRULES" />
 
+				<field name="exludeStartpageSpacer" type="note" close="true"
+					class="alert alert-danger mb-0"
+					label="PLG_SYSTEM_ONURLROBOTSGHSVS_EXLUDESTARTPAGE"
+					description="PLG_SYSTEM_ONURLROBOTSGHSVS_EXLUDESTARTPAGE_DESC"/>
+
+				<field name="exludeStartpage" type="list" default="0" filter="integer"
+					label="PLG_SYSTEM_ONURLROBOTSGHSVS_EXLUDESTARTPAGE">
+						<option value="0">JNO</option>
+						<option value="1">JYES</option>
+				</field>
+
 			</fieldset>
 
 	  </fields>

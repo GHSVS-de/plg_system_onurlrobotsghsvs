@@ -4,6 +4,8 @@ namespace GHSVS\Plugin\System\OnUrlRobotsGhsvs\Helper;
 \defined('_JEXEC') or die;
 
 use Joomla\Registry\Registry;
+use Joomla\CMS\Language\Multilanguage;
+use Joomla\CMS\Factory;
 
 class OnUrlRobotsGhsvsHelper
 {
@@ -30,5 +32,26 @@ class OnUrlRobotsGhsvsHelper
 			);
 		}
 		return $this->optionRules;
+	}
+
+	public function getIsFrontpage()
+	{
+		$menu = Factory::getApplication()->getMenu();
+
+		if (Multilanguage::isEnabled())
+		{
+			$home = $menu->getDefault(Factory::getLanguage()->getTag());
+		}
+		else
+		{
+			$home = $menu->getDefault();
+		}
+
+		if ($menu->getActive() === $home)
+		{
+			return true;
+		}
+
+		return false;
 	}
 }

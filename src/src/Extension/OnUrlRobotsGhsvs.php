@@ -31,6 +31,11 @@ final class OnUrlRobotsGhsvs extends CMSPlugin
 			return;
 		}
 
+		if ($this->params->get('exludeStartpage', 0) === 1 && $this->helper->getIsFrontpage() === true)
+		{
+			return;
+		}
+
 		if ($optionsToDo = $this->helper->getRules($this->params))
 		{
 			if (in_array($this->getApplication()->getInput()->get('option', ''), $optionsToDo))
